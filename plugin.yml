@@ -1,0 +1,209 @@
+name: Hype
+main: me.loogeh.Hype.Hype
+description: HypeMC plugin
+version: 1.1
+commands:
+  ride:
+    description: heals 
+  unride:
+    description: heals 
+  rideme:
+    description: heals 
+  rideother:
+    description: heals 
+  gm:
+    description: heals 
+  gmalls:
+    description: heals 
+  gmallc:
+    description: heals 
+  gmalla:
+    description: heals 
+  tp:
+    description: heals 
+  server:
+    description: Server commands
+  ar:
+    description: heals 
+  kick:
+    description: heals 
+  chat:
+    description: heals 
+  fly:
+    description: heals 
+  flyoff:
+    description: heals 
+  help:
+    description: halp
+  rload:
+    description: heals 
+  i:
+    description: heals 
+  say:
+    description: heals 
+  e:
+    description: heals 
+  m:
+    description: Message a player
+  r:
+    description: reply to last messaged player
+  g:
+    description: heals 
+  gh:
+    description: heals 
+  kit:
+    description: heals 
+  heal:
+    description: heals
+  a:
+    description: Sends online admins a message
+  money:
+    description: Saves worlds
+  auction:
+    description: Saves worlds
+  bid:
+    description: Saves worlds
+  check:
+    description: saves worlds
+  setspawn:
+    description: saves yo mamma
+  time:
+    description: Time commands
+  god:
+    description: God
+  rules:
+    description: displays rules list
+  econ:
+    description: Admin economy commands
+  economy:
+    description: Admin economy commands
+  nameitem:
+    description: Names items for cash money
+  shops:
+    description: Shops commands
+  ab:
+    description: Arctic Brawl
+  squads:
+    description: Squads commands
+  sq:
+    description: Squads commands
+  s:
+    description: Squads commands
+  chunk:
+    description: Chunk testing
+  ench:
+    description: Shop ench
+  enchantment:
+    description: Shop enchantments
+  admin:
+    description: Admin mode
+  pl:
+    description: Player list
+  playerlist:
+    description: Player list
+  who:
+    description: Player list
+  mob:
+    description: Mob commands
+  boss:
+    description: Boss commands
+  systime:
+    description: Returns systime
+  mute:
+    description: Mutes a player
+  warp:
+    description: Warp commands
+  s:
+    description: Squads commands
+  sq:
+    description: Squads commands
+  squad:
+    description: Squads commands
+  squads:
+    description: Squads commands
+  f:
+    description: Squads commands
+  faction:
+    description: Squads commands
+  factions:
+    description: Squads commands
+  unmute:
+    description: Unmute a player
+  give:
+    description: Gives items
+  ban:
+    description: Ban players
+  unban:
+    description: unban players
+  d:
+    description: Donation commands
+  donations:
+    description: Donation commands
+  donation:
+    description: Donation commands
+  morph:
+    description: Morph commands
+  unmorph:
+    description: Morph commands
+  w:
+    description: Weather commands
+  weather:
+    description: Weather commands
+  arr:
+    description: Arena map
+  advertisement43155726:
+    description: advertisement43155726
+  bugmsg12314321431:
+    description: bugmsg12314321431
+  claimvote:
+    description: Claims players' votes
+  votes:
+    description: Vote info for player
+  vote:
+    description: Voting sites
+  arenatest:
+    description: Arena test
+  pitch:
+    description: Pitch
+  cooldown:
+    description: Cooldown
+  invtp:
+    description: Inv tp
+  d:
+    description: Donation commands
+  donations:
+    description: Donation commands
+  donation:
+    description: Donation commands
+  inv:
+    description: Open inventory
+  c:
+    description: Client details
+  client:
+    description: Client details
+  spawn:
+    description: Spawn
+  ef:
+    description: Effects commadns
+  effects:
+    description: Effects commands
+  ka:
+    description: Kit Arena commands
+  npc:
+    description: Spawn npcs
+  ignore:
+    description: Ignore players
+  cc:
+    description: Chat Channels
+  meta:
+    description: Item Meta
+  splegg:
+    description: Splegg commands
+  msg:
+    description: Message a player
+  message:
+    description: Message a player
+  tell:
+    description: Message a player
+  whisper:
+    description: Message a player
