@@ -86,57 +86,6 @@ public class MySQL {
 			return null;
 		}
 	}
-	public static boolean checkContains(Player player, String table) {
-		if(table.equalsIgnoreCase("permissions")) {
-			ResultSet rs = MySQL.doQuery("SELECT player FROM permissions WHERE player ='" + player.getName() + "'");
-			try {
-				if(rs.next()) {
-					return true;
-				} else if(!rs.next()) {
-					return false;
-				}
-			} catch (SQLException e) {
-				e.printStackTrace();
-			}
-		}
-		else if(table.equalsIgnoreCase("donations")) {
-			ResultSet rs = MySQL.doQuery("SELECT player FROM donations WHERE player ='" + player.getName() + "'");
-			try {
-				if(rs.next()) {
-					return true;
-				} else if(!rs.next()) {
-					return false;
-				}
-			} catch (SQLException e) {
-				e.printStackTrace();
-			}
-		}
-		else if(table.equalsIgnoreCase("money")) {
-			ResultSet rs = MySQL.doQuery("SELECT player FROM money WHERE player ='" + player.getName() + "'");
-			try {
-				if(rs.next()) {
-					return true;
-				} else if(!rs.next()) {
-					return false;
-				}
-			} catch (SQLException e) {
-				e.printStackTrace();
-			}
-		}
-		//    		else if(table.equalsIgnoreCase("item_names")) {
-		//    			ResultSet rs = MySQL.doQuery("SELECT name FROM item_names WHERE player ='" + player.getName() + "'");
-		//    			try {
-		//    				if(rs.next()) {
-		//    					return true;
-		//    				} else if(!rs.next()) {
-		//    					return false;
-		//    				}
-		//    			} catch (SQLException e) {
-		//    				e.printStackTrace();
-		//    			}
-		//    		}
-		return false;
-	}
 
 	public static String f(String string) {
 		return "'" + string + "'";
