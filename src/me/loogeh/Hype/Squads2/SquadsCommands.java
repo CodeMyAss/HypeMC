@@ -918,27 +918,6 @@ public class SquadsCommands implements CommandExecutor {
 				}
 			}
 		}
-		if(commandLabel.equalsIgnoreCase("password")) {
-			if(Permissions.getRank(player) != Ranks.OWNER) {
-				utilPlayer.permMsg(player);
-				return true;
-			}
-			if(args.length < 2) {
-				M.v(player, "Command", ChatColor.WHITE + "/password <protocol> <password>");
-				return true;
-			}
-			if(args.length == 2) {
-				if(args[0].equalsIgnoreCase("squads_clear")) {
-					if(!password_cooldown.contains(player.getName())) {
-						M.v(player, "Security", ChatColor.WHITE + "You must activate the password first");
-						return true;
-					}
-					if(args[1].equalsIgnoreCase("w8qiU4ae")) {
-						
-					}
-				}
-			}
-		}
 		return false;
 	}
 
